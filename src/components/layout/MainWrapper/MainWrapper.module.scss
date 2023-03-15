@@ -1,0 +1,9 @@
+@import "../../../styles/Home.module.scss";
+
+.mainWrapper {
+	// height: 500px;
+	// width: 100%;
+	// width: 40px;
+	min-height: $minMainWrapperHeight;
+	background-color: blue;
+}
