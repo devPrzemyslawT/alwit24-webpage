@@ -1,0 +1,12 @@
+@import "../../../styles/Home.module.scss";
+
+.footer {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	background-color: green;
+}
