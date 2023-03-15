@@ -1,5 +1,6 @@
 import { forwardRef } from "react";
 import { useRouter } from "next/router";
+import classes from "./Navlink.module.scss";
 
 // eslint-disable-next-line react/display-name
 const NavLink = forwardRef(({ href, onClick, children }, ref) => {
@@ -10,7 +11,7 @@ const NavLink = forwardRef(({ href, onClick, children }, ref) => {
 			href={href}
 			onClick={onClick}
 			ref={ref}
-			style={{ color: router.pathname === href ? "red" : "white" }}>
+			className={router.pathname === href ? classes.active : ""}>
 			{children}
 		</a>
 	);
