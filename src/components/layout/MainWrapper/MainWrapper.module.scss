@@ -1,9 +1,7 @@
 @import "../../../styles/Home.module.scss";
 
 .mainWrapper {
-	// min-height: 1500px;
-	width: 100%;
-	// width: 40px;
 	min-height: $minMainWrapperHeight;
-	background-color: $backgroundColor;
+	width: 100%;
+	// background-color: $secondaryColor;
 }

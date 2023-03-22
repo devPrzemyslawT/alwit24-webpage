@@ -11,6 +11,7 @@ const HeroMainPage = () => {
 					urządzeniach dźwigowych, transportowych i wielu innych.
 				</h3>
 			</div>
+			<div className={classes.SimpleBar}></div>
 		</div>
 	);
 };
