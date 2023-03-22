@@ -1,62 +1,35 @@
 @import "../../styles/Home.module.scss";
 
-// .Mission {
-// 	background: linear-gradient(
-// 		90.17deg,
-// 		$backgroundColor 20.76%,
-// 		rgba(0, 0, 0, 0.2) 100%
-// 	);
-
-// 	// background-position: center left 100px;
-// 	// background-origin: content-box, padding-box;
-// 	// background-size: cover;
-// 	// background-repeat: no-repeat;
-
-// 	width: 100%;
-// 	height: 386px;
-
-// 	display: flex;
-// 	flex-direction: column;
-// 	justify-content: center;
-
-// 	p {
-// 		max-width: 558px;
-// 	}
-
-// 	.CenterParagraph {
-// 		margin: 30px 0;
-
-// 		strong {
-// 			color: $secondaryColor;
-// 		}
-// 	}
-// }
-
 .Content {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	padding-left: 20px;
-	padding-top: 40px;
-	// padding-bottom: 20px;
+	// padding-top: 40px;
 	text-align: left;
 	background-color: $primaryColor;
+
+	h2 {
+		padding-bottom: 20px;
+	}
 }
 
 .Mission {
+	padding-bottom: 40px;
+
 	p {
 		color: $secondaryColor;
 		padding-left: 0px;
 		padding-right: 0px;
 	}
-	padding-bottom: 40px;
 }
+
 .SimpleBar {
 	position: relative;
 	height: 40px;
 	width: 60%;
 	background-color: $secondaryColor;
 	bottom: 0;
-	left : 50vw; 
-	transform: skew(-45deg);
+	left: -250px;
+	transform: skew(45deg);
 }
