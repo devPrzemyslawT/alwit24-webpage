@@ -2,19 +2,16 @@
 
 .navWrapper {
 	width: 100%;
+	min-height: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: aqua;
+	background-color: $secondaryColor;
 }
 
 .navigation {
 	width: 100%;
-	margin-top: 6px;
-	margin-bottom: 6px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-
-

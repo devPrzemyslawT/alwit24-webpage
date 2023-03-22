@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import classes from "./Navbar.module.scss";
 
-import logoImg from "../../../assets/img/logo.svg";
+import logoImg from "../../../assets/img/LogoAlwit.png";
 
 const Navbar = () => {
 	return (
@@ -13,7 +13,7 @@ const Navbar = () => {
 				<div className={classes.navLogo}>
 					<Link href='/' legacyBehavior passHref>
 						<NavLink legacyBehavior>
-							<Image height={40} width={100} alt='alwit-logo' src={logoImg} />
+							<Image height={80} width={200} alt='alwit-logo' src={logoImg} />
 						</NavLink>
 					</Link>
 				</div>

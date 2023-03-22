@@ -1,7 +1,7 @@
 import Image from "next/image";
 import classes from "./Footer.module.scss";
 
-import logoImg from "../../../assets/img/logo.svg";
+import logoImg from "../../../assets/img/LogoAlwit.png";
 
 const Footer = () => {
 	return (
